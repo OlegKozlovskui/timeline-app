@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-inline {
+  margin: 0 auto 30px;
+  justify-content: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  border-radius: 50px;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}

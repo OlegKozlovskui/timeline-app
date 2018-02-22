@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 
 class Search extends Component {
-  state = {
-    isEmptySearch: true
-  };
-
   submitHandler = (e) => {
     e.preventDefault();
     this.props.userName(this.input.value);
